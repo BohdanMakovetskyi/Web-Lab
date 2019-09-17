@@ -1,0 +1,11 @@
+body {
+    height: 100vh;
+    background: linear-gradient(52deg, #645bbf, #673a92);
+    padding-top: 5vh;
+}
+
+.container {
+    background-color: #352f58;
+    height: 90vh;
+    border-radius: 2vh;
+}
