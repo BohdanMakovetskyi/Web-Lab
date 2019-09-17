@@ -5,7 +5,15 @@ body {
 }
 
 .container {
-    background-color: #352f58;
+    background: linear-gradient(52deg, #2a2c44, #1c1e30);
     height: 90vh;
     border-radius: 2vh;
 }
+
+div.menu{
+    height: 8vh;
+    background-color: #342f57;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+}
+
