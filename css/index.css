@@ -1,18 +1,15 @@
-body {
-    height: 100vh;
-    background: linear-gradient(52deg, #645bbf, #673a92);
-    padding-top: 5vh;
-}
-
-.container {
+.container-fluid {
     background: linear-gradient(52deg, #2a2c44, #1c1e30);
-    height: 90vh;
-    border-radius: 2vh;
+    height: 100vh;
 }
 
 div.menu{
     height: 8vh;
     background-color: #342f57;
-    border-top-left-radius: 2vh;
-    border-top-right-radius: 2vh;
+    text-align: center;
+}
+
+a.active {
+    text-decoration: none;
+    color: #fff;
 }
