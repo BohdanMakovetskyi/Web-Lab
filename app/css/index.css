@@ -1,0 +1,113 @@
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(52deg, #2a2c44, #1c1e30);
+}
+
+a {
+    color: #c6c5cd !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    height: 50px;
+    background: #332e55;
+    margin: 0 -15px;
+}
+
+.col-md-2 {
+    display: flex;
+}
+
+.poloska {
+    height: 50px;
+    width: 3px;
+    background: #2a2946;
+    margin-left: 30px;
+}
+
+.col-md-2 span {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #c6c5cd;
+}
+
+.hamg {
+    width: 15px;
+    height: 11px;
+    margin-left: 30px;
+    margin-top: 17px;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+}
+
+.exit {
+    width: 11px;
+    height: 11px;
+}
+
+.filter {
+    height: 15px;
+    width: 13px;
+    margin-right: 20px;
+}
+
+.search {
+    height: 10px;
+    width: 10px;
+    margin-top: -3px;
+}
+
+.a_search {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+    border: 2px solid #7499ff;
+    border-radius: 15px;
+    margin-right: 440px;
+}
+
+input {
+    margin-top: 12px !important;
+    background: #2e2c4c;
+    border: none;
+    color: #56537a;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.add_contact {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.contact_1 {
+    height: 10px;
+    width: 15px;
+}
+
+.contact_2 {
+    height: 10px;
+    width: 13px;
+}
+
+.contact_3 {
+    height: 11px;
+    width: 13px;
+    margin-right: 100px;
+}
+
+.name {
+    color: #c6c5cd;
+    font-size: 12px;
+    margin-right: 100px;
+}
