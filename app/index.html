@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -11,8 +12,8 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header>
+    <header>
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2">
                     <span>Nndmlsvc</span>
@@ -21,7 +22,7 @@
                 </div>
                 <div class="col-md-10">
                     <a href="#"><img src="img/filter.png" class="filter" alt="filter"></a>
-                    <input type="text" placeholder="">
+                    <input type="text" class="header__input" placeholder="Plaseholder text goes here...">
                     <a href="#" class="a_search"><img src="img/search.png" class="search" alt="search"> Search</a>
                     <a href="#" class="add_contact">+ Add Contact</a>
                     <a href="#"><img src="img/contact_1.png" class="contact_1" alt="contact_1"></a>
@@ -32,8 +33,68 @@
                     <img src="img/exit.png" class="exit" alt="exit">
                 </div>
             </div>
-        </header>
-    </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <span class="content__news"><img src="img/bl.png" class="content__bl" alt="#">News</span>
+                    <div class="container_content_type_one">
+                        <div class="content__main d-flex">
+                            <a href="#"><img src="img/avatar_type1.png" class="avatar__item" alt="avatar"></a>
+                            <p class="text__item">Mobile payments product design case study. What I learned.</p>
+                        </div>
+                        <span class="content__time">10:32AM</span>
+                        <span class="content__read1">READ ></span>
+                    </div>
+                    <div class="container_content_type_one">
+                        <div class="content__main d-flex">
+                            <a href="#"><img src="img/avatar_type2.png" class="avatar__item" alt="avatar"></a>
+                            <p class="text__item">How to use Adobe CC shared libraries and make the most of it?.</p>
+                        </div>
+                        <span class="content__time">4:33AM</span>
+                        <span class="content__read2">READ ></span>
+                    </div>
+                    <div class="container_content_type_one">
+                        <div class="content__main d-flex">
+                            <a href="#"><img src="img/avatar_type3.png" class="avatar__item" alt="avatar"></a>
+                            <p class="text__item">8 Non-Digital Tools to Add to Your UX Toolbelt.</p>
+                        </div>
+                        <span class="content__time">Yesterday</span>
+                        <span class="content__read3">READ ></span>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <span class="content__news"><img src="img/bl2.png" class="content__bl" alt="bl2">Tineline</span>
+                    <div class="container_content_type_two">
+                        <div class="content__up d-flex">
+                            <img src="img/avatar.png" alt="avatar" class="avatar2">
+                            <input type="text" placeholder="Writte something..." class="input__content_two">
+                            <a href="#">
+                                <div class="btn1"><img src="img/btn1.png" class="img__btn" alt="btn1"></div>
+                            </a>
+                            <a href="#">
+                                <div class="btn2"><img src="img/btn2.png" class="img__btn" alt="btn2"></div>
+                            </a>
+                        </div>
+                        <div class="content__down d-flex">
+                            <div class="checkbox__main__main"><input type="checkbox" class="checkbox__main"><span
+                                class="checkbox__text">Anonymously</span></div>
+                            <a href="#" class="dowm__a">Who can see<img src="img/dowm.png" class="dowm"
+                                    alt="search"></a>
+                            <a href="#" class="dowm__a2">Channel<img src="img/dowm.png" class="dowm" alt="search"></a>
+                            <a href="#" class="location__main"><img src="img/location.png" alt="location"
+                                    class="locatoin"></a>
+                            <a href="#" class="telegram__main"><img src="img/telegram.png" alt="send"
+                                    class="telegram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
