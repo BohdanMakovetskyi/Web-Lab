@@ -16,10 +16,6 @@ header {
     background: #332e55;
 }
 
-.col-md-2 {
-    display: flex;
-}
-
 .poloska {
     height: 50px;
     width: 3px;
@@ -27,7 +23,7 @@ header {
     margin-left: 30px;
 }
 
-.col-md-2 span {
+.col-lg-2 span {
     margin-left: 10px;
     margin-top: 5px;
     font-weight: bold;
@@ -303,4 +299,384 @@ input {
 .telegram__main {
     margin-top: 5px;
     margin-left: 170px;
+}
+
+.img__three {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.content_up_three {
+    background: #332f55;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content__three__text {
+    color:#9b95ce;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.time__three {
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #58527f;
+    font-size: 10px;
+}
+
+.content_center_three {
+    background: #2c2b49;
+    padding-bottom: 25px;
+}
+
+.polzun__one {
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.img__checbox {
+    height: 17px;
+    width: 17px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.email__polzun {
+    color: #5a5780;
+    font-size: 12px;
+    margin-right: 50px;
+}
+
+.polzun {
+    position: relative;
+    display: block;
+    width: 210px;
+    height: 5px;
+    border-radius: 4px;
+    background: #5a5780;
+    margin-top: 7px;
+    margin-right: 60px;
+}
+
+.polzun__gradient {
+    display: block;
+    width: 160px;
+    height: 5px;
+    border-radius: 4px;
+    background: #e9a488;
+}
+
+.procent {
+    color: #8e88be;
+    font-size: 13px;
+}
+
+.polzun__gradient2 {
+    display: block;
+    width: 50px;
+    height: 5px;
+    border-radius: 4px;
+    background: #a027d7;
+}
+
+.email__polzun2 {
+    color: #5a5780;
+    font-size: 12px;
+    margin-right: 57px;
+}
+
+.content__three__end {
+    padding-top: 25px;
+}
+
+.a_search2 {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+    border: 2px solid #7499ff;
+    border-radius: 15px;
+}
+
+.end__inf {
+    font-size: 9px;
+    color: #68648f;
+    margin-top: 9px;
+    margin-left: 20px;
+    margin-right: 360px;
+}
+
+.content_down_three {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #353058;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.like__icon {
+    margin-left: 20px;
+    margin-right: 5px;
+    height: 10px;
+    width: 10px;
+}
+
+.like__text {
+    color: #6c6696;
+    font-size: 13px;
+}
+
+.container_content_type_three {
+    margin-bottom: 15px;
+}
+
+.img__three {
+    height: 32px;
+    width: 32px;
+}
+
+.time__three2 {
+    margin-top: 20px;
+    color: #58527f;
+    font-size: 10px;
+    margin-left: 161px;
+}
+
+.content_up__center {
+    background: #2d2b4a;
+
+}
+
+.sulka__four {
+    color: #5e76c8 !important;
+    font-size: 8px;
+    margin-left: 45px;
+}
+
+.date__four {
+    color: #6d6897;
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+.text__four {
+    color: #6d6897;
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+.h4__four {
+    color:#b7b6c0;
+    line-height: 0.9em;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.img__four {
+    height: 94px;
+    width: 124px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.content_up__center {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content__four {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #363158;
+    margin: 0 auto;
+    height: 96px;
+    width: 355px;
+    border-radius: 7px;
+}
+
+.content_down__center {
+    background: #37335a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content_down__four {
+    background: #312f50;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 15px;
+     
+}
+
+.input__four {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+.telegram2 {
+    margin-left: 130px;
+    margin-top: 9px;
+}
+
+.container-fluid {
+    margin-left: -15px !important;
+}
+
+.sidebar {
+	background-color: #2e2c4c;
+	width: 90%;
+}
+
+.fs15 {
+    font-size: 15px !important;
+}
+
+.fs12 {
+    font-size: 10px !important;
+}
+
+.first__ul {
+    padding-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.first__ul p {
+	margin: 0;
+	opacity: 0.65;
+	color: #fefefe;
+	font-size: 18px
+}
+
+.fa-caret-down {
+	color: #ffffff;
+	opacity: 0.5;
+}
+
+.two__ul {
+	margin-top: 30px;
+	list-style: none;
+}
+
+.two__ul li {
+	margin-bottom: 19px;
+	display: flex;
+	align-items: center;
+}
+
+.two__ul li p {
+	margin: 0 0 0 8px;
+}
+
+.two__ul li a {
+	opacity: 0.65;
+	color: #c4bcff;
+	font-size: 14px;
+	display: block;
+	margin-left: 16px;
+}
+
+.two__ul li a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.fa-pencil-alt, .fa-lock, .fa-folder, .fa-cogs{
+	margin-left: 8px;
+}
+
+.underPuncts {
+	font-size: 15px;
+}
+
+.underPuncts ul {
+	padding-left: 69px;
+}
+
+.tree__ul {
+	margin-top: 60px;
+	list-style: none;
+}
+
+.tree__ul li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 24px;
+}
+
+.tree__ul li a {
+	opacity: 0.65;
+	color: #c4bcff;
+	font-size: 18px;
+	display: block;
+}
+
+.tree__ul li a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.tree__ul li i{
+	margin-right: 50px;
+}
+
+.fas {
+    color: #7974a5 !important;
+}
+
+.qw1:before {
+    content: "•  ";
+    color: #9d96ae;
+    margin-left: -20px;
+    margin-right: 6px;    
+}
+.qw2:before {
+    content: "•  ";
+    color: #920f9c; 
+    margin-left: -20px;
+    margin-right: 6px;
+}
+.qw3:before {
+    content: "•  ";
+    color: #00aa0f; 
+    margin-left: -20px;
+      margin-right: 6px;
+}
+.qw4:before {
+    content: "•  ";
+    color: #ac8600; 
+    margin-left: -20px;
+    margin-right: 6px;
+}
+.qw5:before {
+    content: "•  ";
+    color: #0076b2;
+    margin-left: -20px;
+    margin-right: 6px;   
+}
+ 
+li {
+    list-style: none;
+    color:#9b95cd;
+}
+
+.underPuncts {
+	background-color: #2e2c4c;
+	color:#9b95cd;
+	font-size: 11px;
+	padding-top: 30px;
+    float:bottom;
+    margin-left: -15px;
+} 
+
+.underPuncts li{
+	margin-top: 10px;
 }
